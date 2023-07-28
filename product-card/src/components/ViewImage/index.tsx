@@ -1,5 +1,5 @@
 import productView from "../../assets/sofa.gif";
-import product from "../../assets/sofa.png";
+import product from "../../assets/image 2.svg";
 import view from "../../assets/view.svg";
 import close from "../../assets/close.svg";
 import { useState } from "react";
@@ -7,7 +7,7 @@ import { useState } from "react";
 export function ViewImage() {
   const [isAllView, setIsAllView] = useState<boolean>(true);
   return (
-    <div className="flex flex-col w-full sm:w-[43rem]">
+    <div className="flex flex-col w-full lg:w-[60rem]">
       <button
         onClick={() => setIsAllView(!isAllView)}
         className="cursor-pointer self-end mr-14"

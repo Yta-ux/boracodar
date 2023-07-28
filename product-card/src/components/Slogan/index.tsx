@@ -13,7 +13,7 @@ export function Slogan({
         <p className="font-light text-[14px] uppercase ">
           CÓDIGO: {codeProduct}
         </p>
-        <h1 className="font-serif text-4xl">{nameProduct}</h1>
+        <h1 className="font-serif text-6xl">{nameProduct}</h1>
         <p className="text-base">
           R$
           {priceProduct.toLocaleString("pt-br", {
